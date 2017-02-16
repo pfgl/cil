@@ -43,7 +43,7 @@
             <div id="inner-header" class="container">
                 <div class="logo-container">
                     <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-                    <a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="<?php bloginfo('name'); ?>" class="logo"></a>
+                    <a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo"></a>
 
                     <?php // if you'd like to use the site description you can un-comment it below ?>
                     <?php // bloginfo('description'); ?>
