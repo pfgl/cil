@@ -1,0 +1,90 @@
+/******************************************************************
+Site Name: Platinum Portfolios
+Author: Jack Machin
+
+Stylesheet: Maps
+
+******************************************************************/
+
+.ifa-content {
+    clear: both;
+    float: left;
+    width: 400px;
+    display: inline;
+}
+
+.ifa-map {
+    float: right;
+    width: 474px;
+    height: 542px;
+    display: inline;
+    position: relative;
+    margin: 25px 0 50px 0;
+    background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat;
+
+
+    .bullet {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url(/wp-content/themes/pfgl/library/images/bullets.png) no-repeat top;
+        text-indent: -9999px;
+        position: absolute;
+	}
+
+    .bullet #rutherford-wilkinson {
+        text-indent:initial;
+    }
+
+}
+
+	.active.bullet {
+	   background: url(/wp-content/themes/pfgl/library/images/bullets.png) no-repeat bottom!important;
+	}
+
+	/* IFA Locations */
+	#rutherford-wilkinson {
+        top: 181px;
+        left: 270px;
+    }
+	#harrogate-independent {top: 249px; left: 290px; }
+	#multiplex {top: 307px; left: 275px;}
+	#ad-valorem {top: 322px; left: 295px;}
+	#perspective-group {top: 302px; left: 295px;}
+	#warnes-anderton {top: 285px; left:330px;}
+	#mcgregors {top: 304px; left: 358px;}
+	#mcgregors2 {top: 323px; left: 338px;}
+	#mcgregors3 {top: 336px; left: 343px; }
+	#mcgregors4 {top: 358px; left: 284px; }
+	#applewood1 {top: 320px; left: 270px;}
+	#applewood2 {top: 333px; left: 275px;}
+	#cambridge-investments {top: 340px; left: 380px; }
+	#wingham-wyatt {top: 366px; left: 402px; }
+	#perspective-financial {top: 374px; left: 341px;}
+	#chambers-co {top: 381px; left: 396px;}
+	#chessman-partners {top: 387px; left: 357px; }
+	#austyn-james {top: 405px; left: 357px; }
+	#mcgrath-rathbone {top: 387px; left: 343px; }
+	#charles-reynolds-associates {top: 392px; left: 373px;}
+	#pims {top: 406px; left: 420px; }
+	#platinum-portfolios {top: 429px; left: 415px;}
+	#equilibrium {top: 405px; left: 325px;}
+	#keypi {top: 420px; left: 313px;}
+	#leedham {top: 290px; left: 274px;}
+	#shirebrook {top: 280px; left: 290px;}
+	#financial-connection {top: 400px; left: 395px; }
+
+/* IFA Details */
+
+.ifa-details {
+    display:none;
+}
+
+.ifa-details-active {
+    display:block;
+}
+
+.map-logo {
+    border: 2px solid #404040;
+    display: none;
+}

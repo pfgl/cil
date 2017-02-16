@@ -1,0 +1,107 @@
+/******************************************************************
+Site Name: Platinum Portfolios
+Author: Jack Machin
+
+Stylesheet: Layout Stylesheet
+******************************************************************/
+.wrapper {
+	@include clearfix;
+	max-width: $break-wide;
+	//min-width: ($break-mobile - 20px);
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+	@include clearfix;
+	width: 100%;
+}
+
+#container {}
+
+  .header {}
+
+    #inner-header {
+        @include grid (12, $margin:0);
+    }
+
+        .logo-container {
+            @include grid(4);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+        }
+
+      #sidebar-header {
+        @include grid(4, $push:4);
+        @include break(tablet, 12);
+        @include break(mobile, 12);
+      }
+
+        .advice,
+        .local {
+            @include grid(6);
+        }
+
+        .navigation {
+            @include grid(12);
+        }
+
+  #content {}
+
+    #inner-content {
+        @include grid (12, $margin:0);
+    }
+
+      .full {
+        @include grid (12);
+      }
+
+      #main, .main {
+        @include grid(9);
+        @include break(tablet, 12);
+        @include break(mobile, 12);
+      }
+
+.posts {
+    @include grid(9, $margin:0);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
+}
+#sidebar-news {
+    @include grid(3);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
+}
+
+
+        .sub-link {
+            @include grid(4);
+              @include break(mobile, 12);
+        }
+       .sidebar {
+        @include grid(3);
+        @include break(tablet, 12);
+        @include break(mobile, 12);
+       }
+
+.footer-sidebar {
+    @include grid(4);
+    @include break(tablet, 12);
+    @include break(mobile, 12);
+}
+
+        .widget {
+        	@include clearfix;
+        }
+
+        .tab {
+            @include grid(12, $margin:0);
+            @include break(tablet, 4);
+            @include break(mobile, 12);
+        }
+
+.footer {}
+
+.subsidary-statement {
+    @include grid (12);
+}
