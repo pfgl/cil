@@ -6,7 +6,7 @@
 
             <div class="main" role="main">
 
-                <h1 class="page-title">Platinum Portfolio News</h1>
+                <h1 class="page-title">Cambridge Investments News</h1>
 
                 <div class="posts">
 
