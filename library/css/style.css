@@ -1534,13 +1534,13 @@ style a page via class
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #203868;
+  color: #bfa666;
   text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #152545;
+    color: #ae9249;
     text-decoration: underline; }
   a:link, a:visited:link {
     /*
@@ -1725,7 +1725,7 @@ POSTS & CONTENT STYLES
   font-weight: bold; }
 
 .page-title {
-  background: #203868 url(/wp-content/themes/multiplex-new/library/images/titlebg.png) no-repeat left top;
+  background: #bfa666 url(/wp-content/themes/multiplex-new/library/images/titlebg.png) no-repeat left top;
   color: #fff;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -1740,7 +1740,7 @@ POSTS & CONTENT STYLES
   clear: both; }
 
 .sub-links h3 {
-  background: #203868 url(/wp-content/themes/applewood-new/library/images/titlebg.png) no-repeat left top;
+  background: #bfa666 url(/wp-content/themes/applewood-new/library/images/titlebg.png) no-repeat left top;
   color: #fff;
   padding: 0 0 0 10px;
   font-weight: normal;
@@ -1759,7 +1759,7 @@ POSTS & CONTENT STYLES
   color: #fff; }
 
 .day {
-  background-color: #203868;
+  background-color: #bfa666;
   padding: 0 1em; }
 
 .month {
@@ -2224,7 +2224,7 @@ SIDEBARS & ASIDES
 
 .tab {
   color: #fff;
-  background: #203868;
+  background: #bfa666;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -2437,12 +2437,12 @@ NAVIGATION STYLES
     margin-top: 0;
     margin-bottom: 0;
     border: 0;
-    background-color: #203868;
-    background: -moz-linear-gradient(top, #203868, #899eca 50%, #203868 100%);
-    background: -webkit-linear-gradient(top, #203868, #899eca 50%, #203868 100%);
-    background: -o-linear-gradient(top, #203868, #899eca 50%, #203868 100%);
-    background: -ms-linear-gradient(top, #203868, #899eca 50%, #203868 100%);
-    background: linear-gradient(to bottom, #203868, #899eca 50%, #203868 100%);
+    background-color: #bfa666;
+    background: -moz-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
+    background: -webkit-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
+    background: -o-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
+    background: -ms-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
+    background: linear-gradient(to bottom, #bfa666, #899eca 50%, #bfa666 100%);
     -webkit-box-shadow: 0 0 5px #3c3c40;
     -moz-box-shadow: 0 0 5px #3c3c40;
     box-shadow: 0 0 5px #3c3c40;
