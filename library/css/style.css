@@ -2480,9 +2480,9 @@ NAVIGATION STYLES
         padding: 20px 20px 20px 0;
         border-bottom-left-radius: 1em;
         border-bottom-right-radius: 1em;
-        border-bottom: 2px solid #203868;
-        border-left: 2px solid #203868;
-        border-right: 2px solid #203868;
+        border-bottom: 2px solid #bfa666;
+        border-left: 2px solid #bfa666;
+        border-right: 2px solid #bfa666;
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li,
         .nav li ul.children li {
