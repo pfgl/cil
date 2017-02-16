@@ -2438,11 +2438,11 @@ NAVIGATION STYLES
     margin-bottom: 0;
     border: 0;
     background-color: #bfa666;
-    background: -moz-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
-    background: -webkit-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
-    background: -o-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
-    background: -ms-linear-gradient(top, #bfa666, #899eca 50%, #bfa666 100%);
-    background: linear-gradient(to bottom, #bfa666, #899eca 50%, #bfa666 100%);
+    background: -moz-linear-gradient(top, #bfa666, #fde6ab 50%, #bfa666 100%);
+    background: -webkit-linear-gradient(top, #bfa666, #fde6ab 50%, #bfa666 100%);
+    background: -o-linear-gradient(top, #bfa666, #fde6ab 50%, #bfa666 100%);
+    background: -ms-linear-gradient(top, #bfa666, #fde6ab 50%, #bfa666 100%);
+    background: linear-gradient(to bottom, #bfa666, #fde6ab 50%, #bfa666 100%);
     -webkit-box-shadow: 0 0 5px #3c3c40;
     -moz-box-shadow: 0 0 5px #3c3c40;
     box-shadow: 0 0 5px #3c3c40;
