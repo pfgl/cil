@@ -1673,7 +1673,7 @@ and more scalable.
 		*/ }
     .nav li a {
       display: block;
-      color: #fff;
+      color: #8e6b13;
       text-decoration: none;
       padding: 0.75em;
       text-align: center;
@@ -1824,7 +1824,7 @@ POSTS & CONTENT STYLES
       border-right: 0; }
   .entry-content blockquote {
     padding: 0 0 0 0.75em;
-    border-left: 3px solid #203868;
+    border-left: 3px solid #bfa666;
     font-style: italic; }
   .entry-content dd {
     margin-left: 0;
