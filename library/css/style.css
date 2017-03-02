@@ -539,14 +539,6 @@ p, a, h1 {
   word-break: break-word;
   word-wrap: break-word; }
 
-p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  -webkit-hyphenate-before: 3;
-  -webkit-hyphenate-after: 3;
-  hyphenate-lines: 3; }
-
 /******************************************************************
 Site Name: Platinum Portfolios
 Author: Jack Machin
