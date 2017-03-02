@@ -535,9 +535,9 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p, a, h1 {
-  -ms-word-wrap: break-word;
-  word-break: break-word;
-  word-wrap: break-word; }
+  -ms-word-wrap: normal;
+  word-break: normal;
+  word-wrap: normal; }
 
 /******************************************************************
 Site Name: Platinum Portfolios

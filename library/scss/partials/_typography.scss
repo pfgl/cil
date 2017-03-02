@@ -63,7 +63,7 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p, a, h1  {
-  -ms-word-wrap: break-word;
-  word-break: break-word; //non-standart css for webkit
-  word-wrap: break-word;
+  -ms-word-wrap: normal;
+  word-break: normal; //non-standart css for webkit
+  word-wrap: normal;
  }
