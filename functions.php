@@ -211,6 +211,18 @@ function bones_register_sidebars() {
 	*/
 } // don't remove this bracket!
 
+	// wp menus
+	add_theme_support( 'menus' );
+
+	// registering wp3+ menus
+	register_nav_menus(
+		array(
+			'main-nav' => __( 'The Main Menu', 'bonestheme' ),   // main nav in header
+            'tatton-nav' => __( 'Tatton Menu', 'cil'), //mobile menu
+			'footer-links' => __( 'Footer Links', 'bonestheme' ) // secondary nav in footer
+		)
+	);
+
 /************* COMMENT LAYOUT *********************/
 
 // Comment Layout
