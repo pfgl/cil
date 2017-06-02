@@ -2,11 +2,11 @@
 
 				<div id="inner-footer" class="wrapper">
 
-                    <?php get_sidebar ('contact');?>
+                    <?php get_sidebar ('contact-tatton');?>
 
-                    <?php get_sidebar ('legal');?>
+                    <?php get_sidebar ('legal-tatton');?>
 
-                    <?php get_sidebar ('testimonials');?>
+                    <?php get_sidebar ('testimonials-tatton');?>
 
                     <?php get_sidebar ('footer');?>
 
