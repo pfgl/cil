@@ -25,11 +25,14 @@
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                    <header class="article-header">
+                    <?php if (is_page ('tatton')) {} else { ?>
+                        <header class="article-header">
 
-                        <h1 class="page-title"><?php the_title(); ?></h1>
+                            <h1 class="page-title"><?php the_title(); ?></h1>
 
-                    </header>
+                        </header>
+
+                    <?php } ?>
 
                     <div class="entry-content cf" itemprop="articleBody">
                         <?php
