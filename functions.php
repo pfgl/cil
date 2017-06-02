@@ -185,6 +185,46 @@ function bones_register_sidebars() {
 		'after_title' => '</h4>',
 	));
 
+      register_sidebar(array(
+		'id' => 'sidebar-tatton',
+		'name' => __( 'Sidebar Tatton', 'bonestheme' ),
+		'description' => __( 'The main sidebar for Tatton.', 'bonestheme' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
+     register_sidebar(array(
+		'id' => 'sidebar-contact-tatton',
+		'name' => __( 'Footer Contact - Tatton', 'bonestheme' ),
+		'description' => __( 'The footer contact area for Tatton.', 'bonestheme' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
+    register_sidebar(array(
+		'id' => 'sidebar-legal-tatton',
+		'name' => __( 'Footer Legal for Tatton', 'bonestheme' ),
+		'description' => __( 'The footer legal area.', 'bonestheme' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
+  register_sidebar(array(
+		'id' => 'sidebar-testimonials-tatton',
+		'name' => __( 'Footer Testimonials for Tatton', 'bonestheme' ),
+		'description' => __( 'The footer testimonial area.', 'bonestheme' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
 	/*
 	to add more sidebars or widgetized areas, just copy
 	and edit the above sidebar code. In order to call
