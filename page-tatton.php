@@ -13,7 +13,7 @@
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('tatton'); ?>
 
     <div id="content" class="wrapper">
 
@@ -21,54 +21,37 @@
 
             <div class="main"  role="main">
 
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-								<header class="article-header">
+                    <header class="article-header">
 
-									<h1 class="page-title"><?php the_title(); ?></h1>
+                        <h1 class="page-title"><?php the_title(); ?></h1>
 
-                  <?php get_template_part ('partials/post-meta' , 'page');?>
+                    </header>
 
-								</header>
+                    <div class="entry-content cf" itemprop="articleBody">
+                        <?php
+                            // the content (pretty self explanatory huh)
+                            the_content();
+                        ?>
+                    </div>
 
-								<div class="entry-content cf" itemprop="articleBody">
-                                    <div class="ifa-content">
-                                        <?php
-										// the content (pretty self explanatory huh)
-										the_content();
-									?>
+                </article>
 
-                                    </div>
+                <?php endwhile; else : ?>
 
+                    <?php get_template_part ('partials/no-post-found');?>
 
-								</div>
+                <?php endif; ?>
 
+            </div>
 
-								<footer class="article-footer">
+            <?php get_sidebar('tatton'); ?>
 
-                  <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
+    </div>
 
-								</footer>
+</div>
 
-								<?php comments_template(); ?>
-
-							</article>
-
-							<?php endwhile; else : ?>
-
-                <?php get_template_part ('partials/no-post-found');?>
-
-							<?php endif; ?>
-
-						</div>
-
-						<?php get_sidebar(); ?>
-
-				</div>
-
-			</div>
-
-
-<?php get_footer(); ?>
+<?php get_footer('tatton'); ?>
