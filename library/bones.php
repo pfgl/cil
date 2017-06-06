@@ -161,7 +161,7 @@ function bones_scripts_and_styles() {
 		  wp_enqueue_script( 'comment-reply' );
         }
 
-        if (is_page_template ('tatton')) {
+        if (is_page_template ('page-tatton')) {
             wp_enqueue_style( 'tatton-stylesheet' );
         }
 
