@@ -38,7 +38,7 @@
 
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class('investors'); ?>>
 
             <nav class="navbar navbar-default navbar-nested navbar--primary navbar--fixed" id="top" role="navigation">
         <div class="container">
