@@ -135,7 +135,10 @@ function bones_scripts_and_styles() {
 		// register main stylesheet
 		wp_register_style( 'guybrush-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.min.css', array(), '', 'all' );
 
-		// ie-only style sheet
+        // register tatton  stylesheet
+		wp_register_style( 'tatton-stylesheet', get_stylesheet_directory_uri() . '/library/css/tatton.min.css', array(), '', 'all' );
+
+      // ie-only style sheet
 		wp_register_style( 'guybrush-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
 		//adding scripts file in the footer
@@ -157,6 +160,11 @@ function bones_scripts_and_styles() {
         if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
 		  wp_enqueue_script( 'comment-reply' );
         }
+
+        if (is_page_template ('tatton')) {
+            wp_enqueue_style( 'tatton-stylesheet' );
+        }
+
 	}
 }
 
