@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar__phone-mobile" href="tel:020 7190 2959"><i class="fa fa-phone"></i></a>
-                <a class="navbar-brand navbar--primary__brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
+                <a class="navbar-brand navbar--primary__brand" href="http://www.cambridgeinvestments.co.uk/tatton"><img src="/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
             </div>
 
             <div class="collapse navbar-collapse" id="primary-nav">
