@@ -40,43 +40,43 @@
 
 	<body <?php body_class('investors'); ?>>
 
-            <nav class="navbar navbar-default navbar-nested navbar--primary navbar--fixed" id="top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#primary-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar__phone-mobile" href="tel:020 7190 2959"><i class="fa fa-phone"></i></a>
-                <a class="navbar-brand navbar--primary__brand" href="http://www.cambridgeinvestments.co.uk/tatton"><img src="/wp-content/themes/cil/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
+        <nav class="navbar navbar-default navbar-nested navbar--primary navbar--fixed" id="top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#primary-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar__phone-mobile" href="tel:020 7190 2959"><i class="fa fa-phone"></i></a>
+                    <a class="navbar-brand navbar--primary__brand" href="http://www.cambridgeinvestments.co.uk/tatton"><img src="/wp-content/themes/cil/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="primary-nav">
+
+                    <ul class="navbar-nav navbar-right social social--navbar text-center hidden-xs">
+                        <li><a href="https://twitter.com/TattonIM" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+
+                    <p class="navbar-right navbar__phone hidden-xs"><a href="tel: <?php the_field('contact_phone', 'option'); ?>"><span>t//</span><?php the_field('contact_phone', 'option'); ?></a></p>
+
+                    <?php wp_nav_menu(array(
+                        'container' => false,                           // remove nav container
+                        'container_class' => '',                    // class of container (should you choose to use it)
+                        'menu' => __( 'Tatton Menu', 'bonestheme' ),  // nav name
+                        'menu_class' => 'navbar navbar-nav navbar-right navbar--menu',               // adding custom nav class
+                        'theme_location' => 'tatton-nav',                 // where it's located in the theme
+                        'before' => '',                                 // before the menu
+                        'after' => '',                                  // after the menu
+                        'link_before' => '',                            // before each link
+                        'link_after' => '',                             // after each link
+                        'depth' => 0,                                   // limit the depth of the nav
+                        'fallback_cb' => ''                             // fallback function (if there is one)
+                    )); ?>
+
+                </div>
             </div>
-
-            <div class="collapse navbar-collapse" id="primary-nav">
-
-                <ul class="navbar-nav navbar-right social social--navbar text-center hidden-xs">
-                    <li><a href="https://twitter.com/TattonIM" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i></a></li>
-                </ul>
-
-                <p class="navbar-right navbar__phone hidden-xs"><a href="tel: <?php the_field('contact_phone', 'option'); ?>"><span>t//</span><?php the_field('contact_phone', 'option'); ?></a></p>
-
-                <?php wp_nav_menu(array(
-                    'container' => false,                           // remove nav container
-                    'container_class' => '',                    // class of container (should you choose to use it)
-                    'menu' => __( 'Tatton Menu', 'bonestheme' ),  // nav name
-                    'menu_class' => 'navbar navbar-nav navbar-right navbar--menu',               // adding custom nav class
-                    'theme_location' => 'tatton-nav',                 // where it's located in the theme
-                    'before' => '',                                 // before the menu
-                    'after' => '',                                  // after the menu
-                    'link_before' => '',                            // before each link
-                    'link_after' => '',                             // after each link
-                    'depth' => 0,                                   // limit the depth of the nav
-                    'fallback_cb' => ''                             // fallback function (if there is one)
-                )); ?>
-
-            </div>
-        </div>
-    </nav>
+        </nav>
