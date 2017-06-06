@@ -160,11 +160,6 @@ function bones_scripts_and_styles() {
         if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
 		  wp_enqueue_script( 'comment-reply' );
         }
-
-        if (is_page_template ('page-tatton')) {
-            wp_enqueue_style( 'tatton-stylesheet' );
-        }
-
 	}
 }
 
