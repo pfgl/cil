@@ -20,8 +20,11 @@
 							</ul>
 						</div>
 						<div class="col-sm-6 footer__address">
-							<p><?php the_field('contact_address', 'option'); ?></p>
-							<p><a class="more more--google" href="<?php the_field('google_maps', 'option'); ?>" target="_blank">View on map</a></p>
+							<p>Tatton Investment Management
+125 Old Broad Street
+London
+EC2N 1AR</p>
+							<p><a class="more more--google" href="https://www.google.co.uk/maps/place/London+EC2N+1AR/@51.5145907,-0.0884503,17z/data=!3m1!4b1!4m2!3m1!1s0x48761cacd516d8b9:0xb2316b0662107b7b" target="_blank">View on map</a></p>
 						</div>
 					</div>
 					<div class='row mb-lg'>
