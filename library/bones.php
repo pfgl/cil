@@ -166,7 +166,7 @@ function bones_scripts_and_styles() {
 add_action( 'wp_enqueue_scripts', 'my_deregister_javascript' );
 
 function my_deregister_javascript() {
-    if ( is_page_template ('page-tatton.php') ) {
+    if ( is_page ('tatton') ) {
         wp_dequeue_script( 'guybrush-js' );
         wp_dequeue_style( 'guybrush-stylesheet' );
     }
