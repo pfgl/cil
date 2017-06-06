@@ -2487,6 +2487,11 @@ tbody.collapse.in {
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444; }
 
+.sub-menu {
+  border: none;
+  padding: inherit;
+  width: inherit; }
+
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
