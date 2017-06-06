@@ -56,5 +56,6 @@
 		</footer>
 
 		<?php wp_footer(); ?>
+        <script type="text/javascript" src="http://www.tattoninvestments.com/tim-assets/themes/tim/assets/js/tatton.min.js?ver=4.7.5"></script>
 	</body>
 </html>
