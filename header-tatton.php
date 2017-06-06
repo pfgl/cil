@@ -34,6 +34,8 @@
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
+        <link rel="stylesheet" id="tatton-stylesheet-css" href="http://www.cambridgeinvestments.co.uk/wp-content/themes/cil/library/css/tatton.min.css" type="text/css" media="all">
+
 	</head>
 
 	<body <?php body_class(); ?>>
