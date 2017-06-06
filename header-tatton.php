@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar__phone-mobile" href="tel: <?php the_field('contact_phone', 'option'); ?>"><i class="fa fa-phone"></i></a>
+                <a class="navbar__phone-mobile" href="tel:020 7190 2959"><i class="fa fa-phone"></i></a>
                 <a class="navbar-brand navbar--primary__brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
             </div>
 
@@ -59,9 +59,9 @@
                 <?php endif; ?>
 
                 <ul class="navbar-nav navbar-right social social--navbar text-center hidden-xs">
-                    <li><a href="<?php the_field('social_twitter', 'option'); ?>" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="<?php the_field('social_linkedin', 'option'); ?>" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="<?php the_field('social_youtube', 'option'); ?>" title="youtube"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/TattonIM" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i></a></li>
                 </ul>
 
                 <p class="navbar-right navbar__phone hidden-xs"><a href="tel: <?php the_field('contact_phone', 'option'); ?>"><span>t//</span><?php the_field('contact_phone', 'option'); ?></a></p>
