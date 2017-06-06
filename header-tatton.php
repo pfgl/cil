@@ -20,7 +20,7 @@
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">
-		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+        <link rel="icon" href="http://www.tattoninvestments.com/tim-assets/themes/tim/assets/icons/favicon.ico">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
@@ -70,7 +70,8 @@
                     'container' => false,                           // remove nav container
                     'container_class' => '',                    // class of container (should you choose to use it)
                     'menu' => __( 'Tatton Menu', 'bonestheme' ),  // nav name
-                    'menu_class' => 'nav top-nav cf',               // adding custom nav class
+                    'menu_class' => 'tatton-nav
+                    ',               // adding custom nav class
                     'theme_location' => 'tatton-nav',                 // where it's located in the theme
                     'before' => '',                                 // before the menu
                     'after' => '',                                  // after the menu
