@@ -40,21 +40,33 @@
 
 	<body <?php body_class(); ?>>
 
-        <header class="header wrapper" role="banner">
+            <nav class="navbar navbar-default navbar-nested navbar--primary navbar--fixed" id="top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#primary-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar__phone-mobile" href="tel: <?php the_field('contact_phone', 'option'); ?>"><i class="fa fa-phone"></i></a>
+                <a class="navbar-brand navbar--primary__brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo THEME_DIRECTORY; ?>/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
+            </div>
 
-            <div id="inner-header" class="container">
-                <div class="logo-container">
-                    <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo">
+            <div class="collapse navbar-collapse" id="primary-nav">
+                <?php if(is_user_logged_in()): ?>
+                    <a class='btn btn-default navbar-right navbar__logout' href="<?php echo wp_logout_url(get_the_permalink()); ?>">Logout</a>
+                <?php endif; ?>
 
-                    <?php // if you'd like to use the site description you can un-comment it below ?>
-                    <?php // bloginfo('description'); ?>
-                </div>
-                <?php get_sidebar ('header');?>
+                <ul class="nav navbar-nav navbar-right social social--navbar text-center hidden-xs">
+                    <li><a href="<?php the_field('social_twitter', 'option'); ?>" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="<?php the_field('social_linkedin', 'option'); ?>" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="<?php the_field('social_youtube', 'option'); ?>" title="youtube"><i class="fa fa-youtube"></i></a></li>
+                </ul>
 
-                <nav role="navigation" class="navigation">
+                <p class="navbar-right navbar__phone hidden-xs"><a href="tel: <?php the_field('contact_phone', 'option'); ?>"><span>t//</span><?php the_field('contact_phone', 'option'); ?></a></p>
 
-                  <?php wp_nav_menu(array(
+                <?php wp_nav_menu(array(
                     'container' => false,                           // remove nav container
                     'container_class' => '',                    // class of container (should you choose to use it)
                     'menu' => __( 'Tatton Menu', 'bonestheme' ),  // nav name
@@ -66,9 +78,8 @@
                     'link_after' => '',                             // after each link
                     'depth' => 0,                                   // limit the depth of the nav
                     'fallback_cb' => ''                             // fallback function (if there is one)
-                  )); ?>
+                )); ?>
 
-                </nav>
             </div>
-
-        </header>
+        </div>
+    </nav>
