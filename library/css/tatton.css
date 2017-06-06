@@ -2334,8 +2334,8 @@ tbody.collapse.in {
     margin-right: -15px; }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
-        background: none;
-    box-shadow: none;} }
+    background: none;
+    box-shadow: none; } }
 
 .navbar-default {
   background-color: #f8f8f8;

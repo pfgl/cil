@@ -3222,7 +3222,9 @@ tbody.collapse.in {
     }
 
     .navbar-right ~ .navbar-right {
-        margin-right: 0
+        margin-right: 0;
+        background: none;
+        box-shadow: none;
     }
 }
 
