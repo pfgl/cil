@@ -171,6 +171,7 @@ function my_deregister_javascript() {
         wp_dequeue_style( 'guybrush-stylesheet' );
     }
 }
+
 /*********************
 THEME SUPPORT
 *********************/

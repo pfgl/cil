@@ -70,7 +70,7 @@
                     'container' => false,                           // remove nav container
                     'container_class' => '',                    // class of container (should you choose to use it)
                     'menu' => __( 'Tatton Menu', 'bonestheme' ),  // nav name
-                    'menu_class' => 'navbar',               // adding custom nav class
+                    'menu_class' => 'navbar navbar-nav navbar-right navbar--menu',               // adding custom nav class
                     'theme_location' => 'tatton-nav',                 // where it's located in the theme
                     'before' => '',                                 // before the menu
                     'after' => '',                                  // after the menu
