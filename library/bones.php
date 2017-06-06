@@ -165,11 +165,11 @@ function bones_scripts_and_styles() {
 
 add_action( 'wp_enqueue_scripts', 'my_deregister_javascript' );
 function my_deregister_javascript() {
-   if ( is_page_template ('page-tatton') ) {
+    if ( is_page_template ('page-tatton.php') ) {
         wp_deregister_script( 'jquery' );
         wp_deregister_script( 'guybrush-js' );
         wp_deregister_style( 'guybrush-stylesheet' );
-   }
+    }
 }
 /*********************
 THEME SUPPORT
