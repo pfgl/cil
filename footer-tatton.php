@@ -37,7 +37,7 @@
 				<div class='container'>
 					<div class='row'>
 						<div class='col-xs-12 footer__legals'>
-							<p><?php the_field('legal', 'option'); ?></p>
+							<p>Tatton Investment Management Limited is authorised and regulated by the Financial Conduct Authority. Financial Services Register number 733471. Tatton Investment Management Limited is registered in England and Wales No. 08219008. Registered address: Paradigm House, Brooke Court, Wilmslow, Cheshire, SK9 3ND. The value of investments and the income from them can fluctuate and it is possible that investors may not get back the amount they invested. Past performance is not a guide to future performance. The information contained within the website does not constitute investment advice or a recommendation for any product and you should not make any investment decisions on the basis of it. The information contained within the website is subject to the UK regulatory regime and is therefore primarily targeted at customers in the UK.</p>
 						</div>
 					</div>
 				</div>
