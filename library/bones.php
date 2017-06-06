@@ -168,7 +168,7 @@ function my_deregister_javascript() {
    if ( is_page_template ('page-tatton') ) {
         wp_deregister_script( 'jquery' );
         wp_deregister_script( 'guybrush-js' );
-        wp_deregister_style( 'guybrush-stylesheet' )
+        wp_deregister_style( 'guybrush-stylesheet' );
    }
 }
 /*********************
