@@ -58,7 +58,7 @@
                     <a class='btn btn-default navbar-right navbar__logout' href="<?php echo wp_logout_url(get_the_permalink()); ?>">Logout</a>
                 <?php endif; ?>
 
-                <ul class="nav navbar-nav navbar-right social social--navbar text-center hidden-xs">
+                <ul class="navbar-nav navbar-right social social--navbar text-center hidden-xs">
                     <li><a href="<?php the_field('social_twitter', 'option'); ?>" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="<?php the_field('social_linkedin', 'option'); ?>" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="<?php the_field('social_youtube', 'option'); ?>" title="youtube"><i class="fa fa-youtube"></i></a></li>
