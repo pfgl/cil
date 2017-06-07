@@ -17,15 +17,15 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<section>
-	<div class='container'>
-		<div class='row'>
-			<div class='col-xs-12 content mt-lg mb-lg'>
-				<?php the_content(); ?>
-			</div>
-		</div>
-	</div>
-</section>
+    <section>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-xs-12 content mt-lg mb-lg'>
+                    <?php the_content(); ?>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <?php endwhile; else : ?>
 
