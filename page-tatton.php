@@ -15,46 +15,14 @@
 
 <?php get_header('tatton'); ?>
 
-    <div id="content" class="wrapper">
-
-        <div id="inner-content" class="container">
-
-            <div class="main"  role="main">
-
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-                <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
-                    <?php if (is_page ('tatton')) {} else { ?>
-                        <header class="article-header">
-
-                            <h1 class="page-title"><?php the_title(); ?></h1>
-
-                        </header>
-
-                    <?php } ?>
-
-                    <div class="entry-content cf" itemprop="articleBody">
-                        <?php
-                            // the content (pretty self explanatory huh)
-                            the_content();
-                        ?>
-                    </div>
-
-                </article>
-
-                <?php endwhile; else : ?>
-
-                    <?php get_template_part ('partials/no-post-found');?>
-
-                <?php endif; ?>
-
-            </div>
-
-            <?php get_sidebar('tatton'); ?>
-
-    </div>
-
-</div>
+<section>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-xs-12 content mt-lg mb-lg'>
+				<?php the_content(); ?>
+			</div>
+		</div>
+	</div>
+</section>
 
 <?php get_footer('tatton'); ?>
