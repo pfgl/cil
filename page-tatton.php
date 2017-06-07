@@ -15,6 +15,8 @@
 
 <?php get_header('tatton'); ?>
 
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 <section>
 	<div class='container'>
 		<div class='row'>
@@ -24,5 +26,9 @@
 		</div>
 	</div>
 </section>
+
+<?php endwhile; else : ?>
+
+<?php endif; ?>
 
 <?php get_footer('tatton'); ?>
