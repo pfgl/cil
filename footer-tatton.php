@@ -12,11 +12,11 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<ul class="social social--footer">
-								<li><a href="tel:<?php the_field('contact_phone', 'option'); ?>" title="Phone"><i class="fa fa-phone"></i><?php the_field('contact_phone', 'option'); ?></a></li>
-								<li><a href="mailto:<?php the_field('contact_email', 'option'); ?>" title="Email"><i class="fa fa-envelope"></i><?php the_field('contact_email', 'option'); ?></a></li>
-								<li><a href="<?php the_field('social_twitter', 'option'); ?>" title="Twitter"><i class="fa fa-twitter"></i>go to Twitter</a></li>
-			                    <li><a href="<?php the_field('social_linkedin', 'option'); ?>" title="Linkedin"><i class="fa fa-linkedin"></i>go to Linkedin</a></li>
-			                    <li><a href="<?php the_field('social_youtube', 'option'); ?>" title="youtube"><i class="fa fa-youtube"></i>go to our Youtube channel</a></li>
+								<li><a href="tel:020 7190 2959" title="Phone"><i class="fa fa-phone"></i>020 7190 2959</a></li>
+								<li><a href="mailto:enquiries@tattonim.com" title="Email"><i class="fa fa-envelope"></i>enquiries@tattonim.com</a></li>
+								<li><a href="https://twitter.com/TattonIM" title="Twitter"><i class="fa fa-twitter"></i>go to Twitter</a></li>
+			                    <li><a href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i>go to Linkedin</a></li>
+			                    <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i>go to our Youtube channel</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-6 footer__address">
