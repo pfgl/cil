@@ -10,15 +10,6 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-6">
-							<ul class="social social--footer">
-								<li><a href="tel:020 7190 2959" title="Phone"><i class="fa fa-phone"></i>020 7190 2959</a></li>
-								<li><a href="mailto:enquiries@tattonim.com" title="Email"><i class="fa fa-envelope"></i>enquiries@tattonim.com</a></li>
-								<li><a href="https://twitter.com/TattonIM" title="Twitter"><i class="fa fa-twitter"></i>go to Twitter</a></li>
-			                    <li><a href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i>go to Linkedin</a></li>
-			                    <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i>go to our Youtube channel</a></li>
-							</ul>
-						</div>
 						<div class="col-sm-6 footer__address">
 							<p>Tatton Investment Management<br>
 125 Old Broad Street<br>
