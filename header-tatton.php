@@ -53,7 +53,7 @@
                     <a class="navbar-brand navbar--primary__brand" href="http://www.cambridgeinvestments.co.uk/tatton"><img src="/wp-content/themes/cil/library/images/logo.svg" alt="Tatton Investment Management" class="js-svg"></a>
                 </div>
 
-                <div class="collapse navbar-collapse" id="primary-nav">
+                <div class="collapse navbar-collapse" id="primary-nav" style="padding-top:2rem;">
 
                     <?php wp_nav_menu(array(
                         'container' => false,                           // remove nav container
