@@ -61,8 +61,6 @@
                         <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i></a></li>
                     </ul>
 
-                    <p class="navbar-right navbar__phone hidden-xs"><a href="tel: <?php the_field('contact_phone', 'option'); ?>"><span>t//</span><?php the_field('contact_phone', 'option'); ?></a></p>
-
                     <?php wp_nav_menu(array(
                         'container' => false,                           // remove nav container
                         'container_class' => '',                    // class of container (should you choose to use it)
