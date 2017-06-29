@@ -55,12 +55,6 @@
 
                 <div class="collapse navbar-collapse" id="primary-nav">
 
-                    <ul class="navbar-nav navbar-right social social--navbar text-center hidden-xs">
-                        <li><a href="https://twitter.com/TattonIM" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCXQR46fTHXupZgL_RhTf5aA" title="youtube"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-
                     <?php wp_nav_menu(array(
                         'container' => false,                           // remove nav container
                         'container_class' => '',                    // class of container (should you choose to use it)
