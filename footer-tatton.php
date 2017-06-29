@@ -16,10 +16,11 @@
 							</ul>
 						</div>
 						<div class="col-sm-6 footer__address">
-							<p>Tatton Investment Management<br>
-125 Old Broad Street<br>
-London<br>
-EC2N 1AR</p>
+							<p>Cambridge Investments Limited<br>
+Threadneedle House<br>
+19-21 George IV Street<br>
+Cambridge<br>
+CB2 1HH
 							<p><a class="more more--google" href="https://www.google.co.uk/maps/place/London+EC2N+1AR/@51.5145907,-0.0884503,17z/data=!3m1!4b1!4m2!3m1!1s0x48761cacd516d8b9:0xb2316b0662107b7b" target="_blank">View on map</a></p>
 						</div>
 					</div>
