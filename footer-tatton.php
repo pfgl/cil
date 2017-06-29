@@ -10,6 +10,11 @@
 						</div>
 					</div>
 					<div class="row">
+						<div class="col-sm-6">
+							<ul class="social social--footer">
+								<li><a href="mailto:enquiries@tattonim.com" title="Email"><i class="fa fa-envelope"></i>enquiries@tattonim.com</a></li>
+							</ul>
+						</div>
 						<div class="col-sm-6 footer__address">
 							<p>Tatton Investment Management<br>
 125 Old Broad Street<br>
