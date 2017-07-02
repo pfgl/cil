@@ -1,4 +1,4 @@
-<div id="sidebar-legal" class="col-xs-12 footer__legals" role="complementary">
+<div class="col-xs-12 footer__legals" role="complementary">
 
     <?php if ( is_active_sidebar( 'sidebar-legal-tatton' ) ) : ?>
 
