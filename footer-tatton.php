@@ -15,9 +15,7 @@
 								<li><a href="mailto:enquiries@tattonim.com" title="Email"><i class="fa fa-envelope"></i>enquiries@tattonim.com</a></li>
 							</ul>
 						</div>
-						<div class="col-sm-6 footer__address">
 								<?php get_sidebar('contact-tatton');?>
-						</div>
 					</div>
 					<div class='row mb-lg'>
 						<div class='col-xs-12'>
