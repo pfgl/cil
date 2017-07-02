@@ -1,4 +1,4 @@
-<div id="sidebar-contact" class="col-sm-6 footer__contacts" role="complementary">
+<div class="col-sm-6 footer__address" role="complementary">
 
     <?php if ( is_active_sidebar( 'sidebar-contact-tatton' ) ) : ?>
 
