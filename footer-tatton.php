@@ -16,7 +16,7 @@
 							</ul>
 						</div>
 						<div class="col-sm-6 footer__address">
-								<?php get_sidebar('sidebar-contact-tatton');?>
+								<?php get_sidebar('contact-tatton');?>
 						</div>
 					</div>
 					<div class='row mb-lg'>
@@ -31,7 +31,7 @@
 			<div class="bg-grey pd-md hidden-xs">
 				<div class='container'>
 					<div class='row'>
-	<?php get_sidebar('sidebar-legal-tatton');?>
+						<?php get_sidebar ('legal-tatton');?>
 					</div>
 				</div>
 			</div>
