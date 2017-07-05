@@ -24,5 +24,5 @@
 		<?php wp_footer(); ?>
 
 	</body>
-
+<script type='text/javascript' src='http://www.cambridgeinvestments.co.uk/wp-content/themes/cil/library/js/min/scripts.min.js'></script>
 </html> <!-- end of site. what a ride! -->
