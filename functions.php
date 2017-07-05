@@ -475,7 +475,19 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
       echo $fb_output;
     }
   }
+function ttCreateNavigation($menu, $class) {
+	wp_nav_menu(
+		array(
+			'theme_location' => $menu,
+			'container'      => false,
+			'depth'          => 2,
+			'menu_class'     => $class,
+			'fallback_cb'    => 'bootstrap-navwalker::fallback',
+			'walker'         => new wp_bootstrap_navwalker()
+		)
+	);
 }
+add_action('display_navigation', 'ttCreateNavigation', 10, 2);
 }
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
