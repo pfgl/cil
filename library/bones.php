@@ -154,7 +154,7 @@ function bones_scripts_and_styles() {
         wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-modernizr' );
         wp_enqueue_script( 'pfgl-cookie');
-        wp_enqueue_script( 'guybrush-js' );
+        //wp_enqueue_script( 'guybrush-js' );
 
         // comment reply script for threaded comments
         if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
