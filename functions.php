@@ -317,7 +317,7 @@ function google_fonts() {
 
 add_action('wp_print_styles', 'google_fonts');
 
-if (is_page_template('page-template-page-tatton')) {
+if (is_page_template('page-tatton.php')) {
 	class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 	  /**
 	   * @see Walker::start_lvl()
